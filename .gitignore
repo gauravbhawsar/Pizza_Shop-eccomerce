@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+server/node_modules
+# dependencies
+pizzashop/node_modules
+pizzashop/.pnp
+pizzashop/.pnp.js
+
+# testing
+pizzashop/coverage
+
+# production
+pizzashop/build
+
+# misc
+pizzashop/.DS_Store
+pizzashop/.env.local
+pizzashop/.env.development.local
+pizzashop/.env.test.local
+pizzashop/.env.production.local
+
+pizzashop/npm-debug.log*
+pizzashop/yarn-debug.log*
+pizzashop/yarn-error.log*
